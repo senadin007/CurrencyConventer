@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:KonventorValuta" 
+             x:Class="KonventorValuta.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="KONVENTOR VALUTA" TextColor="Red" FontSize="22" FontAttributes="Bold"  HorizontalTextAlignment="Center" ></Label>
+        <Entry x:Name="Iznos" Placeholder="Unesite iznos" Keyboard="Numeric" TextChanged="OnTextChanged">
+           
+        </Entry>
+        
+        <Picker x:Name="ValutaOD" Title="Odaberi valutu" TextColor="Red"
+                ItemsSource="{Binding ListaValuta}" 
+                ItemDisplayBinding="{Binding Naziv}" 
+                SelectedItem="{Binding Valute}" SelectedIndex="1"></Picker>
+
+         <Grid RowSpacing="0">
+            
+            <Image Grid.Row="0" Grid.Column="0" BindingContext="{x:Reference ValutaOD }" Source="{Binding Path=SelectedItem.URL}"  />
+            <Label Grid.Row="0" Grid.Column="1" BindingContext="{x:Reference ValutaOD }" Text="{Binding Path=SelectedItem.Opis} "
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+           HorizontalTextAlignment="Start"
+           VerticalTextAlignment="Center"
+           TextColor="Black" />
+        </Grid>
+       
+        <Picker x:Name="ValutaDO" Title="Odaberi valutu" TextColor="Red"
+                ItemsSource="{Binding ListaValuta}" 
+                ItemDisplayBinding="{Binding Naziv}" 
+                SelectedItem="{Binding Valute}" SelectedIndex="1"></Picker>
+        <Grid RowSpacing="0">
+            
+            <Image Grid.Row="0" Grid.Column="0" BindingContext="{x:Reference ValutaDO }" Source="{Binding Path=SelectedItem.URL}" />
+            <Label Grid.Row="0" Grid.Column="1" BindingContext="{x:Reference ValutaDO }" Text="{Binding Path=SelectedItem.Opis} "
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="FillAndExpand"
+           HorizontalTextAlignment="Start"
+           VerticalTextAlignment="Center"
+           TextColor="Black" />
+        </Grid>
+        <Label Text="" TextColor="White" FontSize="15" HorizontalTextAlignment="Center" ></Label>
+        <Button Text="Start" 
+                BackgroundColor="DarkRed"
+                CornerRadius="10"
+                HorizontalOptions="FillAndExpand" 
+                TextColor="White" FontAttributes="Bold" FontSize="17"
+                Clicked="Button_Clicked" ></Button>
+        <Label x:Name="Rezultat" TextColor="Gray" FontSize="15" HorizontalTextAlignment="Center" ></Label>
+    </StackLayout>
+
+</ContentPage>

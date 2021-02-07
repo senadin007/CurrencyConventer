@@ -1,0 +1,14 @@
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\bin\Debug\netstandard2.0\KonventorValuta.deps.json
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\bin\Debug\netstandard2.0\KonventorValuta.dll
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\bin\Debug\netstandard2.0\ref\KonventorValuta.dll
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\bin\Debug\netstandard2.0\KonventorValuta.pdb
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\KonventorValuta.AssemblyInfoInputs.cache
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\KonventorValuta.AssemblyInfo.cs
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\KonventorValuta.dll
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\ref\KonventorValuta.dll
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\KonventorValuta.pdb
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\KonventorValuta.csproj.CoreCompileInputs.cache
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User01\Desktop\Seminarski\KonventorValuta\KonventorValuta\obj\Debug\netstandard2.0\KonventorValuta.csprojAssemblyReference.cache
